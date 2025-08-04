@@ -72,29 +72,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center p-6 rounded-2xl bg-starbucks-light-green/50">
-              <div className="text-4xl mb-4">🌿</div>
-              <h3 className="font-display font-semibold text-xl text-starbucks-dark mb-2">Leaf-Wrapped Tradition</h3>
-              <p className="text-starbucks-text-light">Every brew is crafted with the resilience of the vazha maram — always rooted, always rising.</p>
-            </div>
-            <div className="text-center p-6 rounded-2xl bg-starbucks-light-green/30">
-              <div className="text-4xl mb-4">☕</div>
-              <h3 className="font-display font-semibold text-xl text-starbucks-dark mb-2">Bold Local Spirit</h3>
-              <p className="text-starbucks-text-light">No pretentious vibes. Just bold drinks with cultural kick strong enough to rival your amma&apos;s stare.</p>
-            </div>
-            <div className="text-center p-6 rounded-2xl bg-starbucks-light-green/40">
-              <div className="text-4xl mb-4">🍌</div>
-              <h3 className="font-display font-semibold text-xl text-starbucks-dark mb-2">Pazham Pori Energy</h3>
-              <p className="text-starbucks-text-light">Frappes bold enough to be mistaken for political statements. Served with authentic Malayalam attitude.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Menu Preview */}
       <section id="menu" className="py-16 px-4 sm:px-6 lg:px-8 bg-starbucks-dark">
         <div className="max-w-7xl mx-auto">
