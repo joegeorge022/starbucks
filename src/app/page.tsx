@@ -9,7 +9,7 @@ export default function Home() {
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
             <div className="flex items-center space-x-4">
-              <Image
+        <Image
                 src="/logo.jpeg"
                 alt="Starbucks Vazha Logo"
                 width={48}
@@ -54,7 +54,7 @@ export default function Home() {
               Starbucks
             </h1>
             <p className="text-lg text-white/90 mb-8 max-w-4xl mx-auto leading-relaxed drop-shadow-md">
-              This isn't your average Starbucks. This is Starbucks, reimagined through a banana leaf filter.
+              This isn&apos;t your average Starbucks. This is Starbucks, reimagined through a banana leaf filter.
               Think espresso with pazham pori energy. Macchiatos served with a side of Malayalam sarcasm.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -81,7 +81,7 @@ export default function Home() {
             <div className="text-center p-6 rounded-2xl bg-starbucks-light-green/30">
               <div className="text-4xl mb-4">☕</div>
               <h3 className="font-display font-semibold text-xl text-starbucks-dark mb-2">Bold Local Spirit</h3>
-              <p className="text-starbucks-text-light">No pretentious vibes. Just bold drinks with cultural kick strong enough to rival your amma's stare.</p>
+              <p className="text-starbucks-text-light">No pretentious vibes. Just bold drinks with cultural kick strong enough to rival your amma&apos;s stare.</p>
             </div>
             <div className="text-center p-6 rounded-2xl bg-starbucks-light-green/40">
               <div className="text-4xl mb-4">🍌</div>
@@ -185,7 +185,7 @@ export default function Home() {
                 Inspired by the resilience of the vazha maram — always rooted, always rising — our brews are handcrafted for those who dare to mix tradition with trend, and banana stems with bold shots.
               </p>
               <p className="text-lg text-starbucks-text-light mb-6 leading-relaxed">
-                No pretentious vibes. No artificial flavours. Just bold drinks, local spirit, and vibes strong enough to rival your amma's stare.
+                No pretentious vibes. No artificial flavours. Just bold drinks, local spirit, and vibes strong enough to rival your amma&apos;s stare.
               </p>
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-starbucks-green rounded-full flex items-center justify-center">
