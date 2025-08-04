@@ -2,25 +2,118 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #1e3932;
+  --primary: #006241;
+  --primary-dark: #004c3f;
+  --secondary: #d4e9e2;
+  --accent: #00754a;
+  --starbucks-green: #006241;
+  --starbucks-light-green: #d4e9e2;
+  --starbucks-dark: #1e3932;
+  --starbucks-gold: #cba258;
+  --starbucks-cream: #f7f7f7;
+  --starbucks-text: #1e3932;
+  --starbucks-text-light: #6b7280;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--primary);
+  --color-primary-dark: var(--primary-dark);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-starbucks-green: var(--starbucks-green);
+  --color-starbucks-light-green: var(--starbucks-light-green);
+  --color-starbucks-dark: var(--starbucks-dark);
+  --color-starbucks-gold: var(--starbucks-gold);
+  --color-starbucks-cream: var(--starbucks-cream);
+  --color-starbucks-text: var(--starbucks-text);
+  --color-starbucks-text-light: var(--starbucks-text-light);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-poppins);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #1e3932;
+    --foreground: #ffffff;
+    --starbucks-cream: #2d4a3e;
+    --starbucks-text-light: #a1a1aa;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--starbucks-light-green);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--starbucks-green);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-dark);
+}
+
+/* Starbucks pattern background */
+.starbucks-pattern {
+  background-image: 
+    radial-gradient(circle at 25% 25%, var(--starbucks-green) 2px, transparent 2px),
+    radial-gradient(circle at 75% 75%, var(--accent) 2px, transparent 2px);
+  background-size: 50px 50px;
+  background-position: 0 0, 25px 25px;
+  opacity: 0.1;
+}
+
+/* Smooth animations */
+* {
+  transition: all 0.3s ease;
+}
+
+/* Custom focus styles */
+.focus-starbucks:focus {
+  outline: 2px solid var(--starbucks-green);
+  outline-offset: 2px;
+}
+
+/* Starbucks button styles */
+.btn-starbucks {
+  background: var(--starbucks-green);
+  color: white;
+  border-radius: 50px;
+  padding: 12px 24px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-starbucks:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
+.btn-starbucks-outline {
+  border: 2px solid var(--starbucks-green);
+  color: var(--starbucks-green);
+  background: transparent;
+  border-radius: 50px;
+  padding: 12px 24px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-starbucks-outline:hover {
+  background: var(--starbucks-green);
+  color: white;
 }
