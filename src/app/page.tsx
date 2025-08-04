@@ -53,9 +53,12 @@ export default function Home() {
             <h1 className="font-display font-bold text-5xl md:text-7xl text-white mb-6 drop-shadow-lg">
               Starbucks
             </h1>
+            <p className="text-xl md:text-2xl text-white font-bold mb-8 max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
+              Brewed for the Bold. Inspired by You.
+            </p>
             <p className="text-lg text-white/90 mb-8 max-w-4xl mx-auto leading-relaxed drop-shadow-md">
               This isn&apos;t your average Starbucks. This is Starbucks, reimagined through a banana leaf filter.
-              Think espresso with pazham pori energy. Macchiatos served with a side of Malayalam sarcasm.
+              Think espresso with pazham pori energy.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="btn-starbucks text-lg px-8 py-4">
