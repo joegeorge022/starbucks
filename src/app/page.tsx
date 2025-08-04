@@ -61,7 +61,7 @@ export default function Home() {
               <button className="btn-starbucks text-lg px-8 py-4">
                 Explore Menu
               </button>
-              <button className="btn-starbucks-outline text-lg px-8 py-4 bg-white/10 backdrop-blur-sm border border-white text-white hover:bg-white rounded-lg transition duration-300">
+              <button className="border-2 border-white text-white hover:bg-white hover:text-starbucks-dark px-8 py-4 rounded-full font-semibold text-lg transition-all">
                 Learn Our Story
               </button>
             </div>
